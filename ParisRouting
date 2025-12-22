@@ -1,1 +1,114 @@
+import csv
+import math
+import itertools
 
+# CONFIGURATION
+STATIONS_FILE = r"C:\Users\benje\Downloads\metro.csv"
+
+# Haversine
+def haversine(lat1, lon1, lat2, lon2):
+    R = 6371
+    phi1, phi2 = math.radians(lat1), math.radians(lat2)
+    dphi = math.radians(lat2 - lat1)
+    dlambda = math.radians(lon2 - lon1)
+
+    a = math.sin(dphi / 2) ** 2 + \
+        math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2) ** 2
+
+    return 2 * R * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+# LOAD STATIONS
+def load_stations():
+    stations = {}
+
+    with open(STATIONS_FILE, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f, delimiter=";")
+
+        for row in reader:
+            name = row["nom_arret"].strip()
+            gps = row["coordonné gps"].replace(" ", "")
+            lat_str, lon_str = gps.split(",")
+
+            if name not in stations:
+                stations[name] = {
+                    "name": name,
+                    "lat": float(lat_str),
+                    "lon": float(lon_str),
+                    "line": row["ligne"],
+                    "connections": row["changement de ligne possible"]
+                }
+
+    return stations
+
+# TSP
+def route_distance(route):
+    return sum(
+        haversine(
+            route[i]["lat"], route[i]["lon"],
+            route[i + 1]["lat"], route[i + 1]["lon"]
+        )
+        for i in range(len(route) - 1)
+    )
+
+
+def find_shortest_route(stations):
+    best_route = None
+    best_distance = float("inf")
+
+    for perm in itertools.permutations(stations):
+        dist = route_distance(perm)
+        if dist < best_distance:
+            best_distance = dist
+            best_route = perm
+
+    return best_route, best_distance
+
+# USER INTERFACE
+def main():
+    print("METRO ROUTE OPTIMIZATION (LAST MILE)\n")
+
+    stations_dict = load_stations()
+    print(f"{len(stations_dict)} stations available\n")
+
+    print("Enter the stations to visit (comma-separated)")
+    print("Example: Châtelet, Bastille, République\n")
+
+    user_input = input("> ")
+    requested_names = [s.strip() for s in user_input.split(",")]
+
+    requested_stations = []
+    for name in requested_names:
+        if name not in stations_dict:
+            print(f"Unknown station: {name}")
+            return
+        requested_stations.append(stations_dict[name])
+
+    if len(requested_stations) < 2:
+        print("At least two stations are required")
+        return
+
+    if len(requested_stations) > 8:
+        print("Warning: more than 8 stations may be very slow")
+
+    print("\nComputing optimal route...\n")
+
+    route, distance = find_shortest_route(requested_stations)
+
+    print("OPTIMAL ROUTE:\n")
+
+    previous_line = None
+    for i, station in enumerate(route, start=1):
+        print(f"{i}. {station['name']} (Line {station['line']})")
+
+        if previous_line and station["line"] != previous_line:
+            print("   Line change")
+
+        if station["connections"]:
+            print(f"   Connections: {station['connections']}")
+
+        previous_line = station["line"]
+
+    print(f"\nTotal walking distance: {distance:.2f} km")
+
+if __name__ == "__main__":
+    main()
