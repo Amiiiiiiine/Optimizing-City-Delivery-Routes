@@ -1,9 +1,13 @@
 import csv
 import math
 import itertools
+import os
 
 # CONFIGURATION
-STATIONS_FILE = r"C:\Users\benje\Downloads\metro.csv"
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIONS_FILE = os.path.join(BASE_DIR, "metro.csv")
+
 
 # Haversine
 def haversine(lat1, lon1, lat2, lon2):
