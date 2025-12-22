@@ -1,0 +1,407 @@
+ligne;nom_arret;coordonné gps;arrêt précédent;arrêt suivant;changement de ligne possible
+1;La Défense (Grande Arche);48.8926, 2.2358;;Esplanade de La Défense;
+1;Esplanade de La Défense;48.8889, 2.2399;La Défense (Grande Arche);Pont de Neuilly;
+1;Pont de Neuilly;48.8841, 2.2545;Esplanade de La Défense;Les Sablons;
+1;Les Sablons;48.8809, 2.2725;Pont de Neuilly;Porte Maillot;
+1;Porte Maillot;48.8785, 2.2822;Les Sablons;Argentine;
+1;Argentine;48.8755, 2.2925;Porte Maillot;Charles de Gaulle–Étoile;
+1;Charles de Gaulle–Étoile;48.8738, 2.2950;Argentine;George V;2, 6
+1;George V;48.8720, 2.3000;Charles de Gaulle–Étoile;Franklin D. Roosevelt;
+1;Franklin D. Roosevelt;48.8695, 2.3088;George V;Champs-Élysées–Clemenceau;9
+1;Champs-Élysées–Clemenceau;48.8675, 2.3160;Franklin D. Roosevelt;Concorde;13
+1;Concorde;48.8656, 2.3211;Champs-Élysées–Clemenceau;Tuileries;8, 12
+1;Tuileries;48.8645, 2.3303;Concorde;Palais Royal–Musée du Louvre;
+1;Palais Royal–Musée du Louvre;48.8625, 2.3361;Tuileries;Louvre–Rivoli;7
+1;Louvre–Rivoli;48.8606, 2.3414;Palais Royal–Musée du Louvre;Châtelet;
+1;Châtelet;48.8584, 2.3470;Louvre–Rivoli;Hôtel de Ville;4, 7, 11, 14
+1;Hôtel de Ville;48.8570, 2.3522;Châtelet;Saint-Paul;11
+1;Saint-Paul;48.8553, 2.3601;Hôtel de Ville;Bastille;
+1;Bastille;48.8531, 2.3691;Saint-Paul;Gare de Lyon;5, 8
+1;Gare de Lyon;48.8446, 2.3728;Bastille;Reuilly–Diderot;14
+1;Reuilly–Diderot;48.8486, 2.3861;Gare de Lyon;Nation;8
+1;Nation;48.8484, 2.3953;Reuilly–Diderot;Porte de Vincennes;2, 6, 9
+1;Porte de Vincennes;48.8470, 2.4070;Nation;Saint-Mandé;
+1;Saint-Mandé;48.8441, 2.4156;Porte de Vincennes;Bérault;
+1;Bérault;48.8414, 2.4253;Saint-Mandé;Château de Vincennes;
+1;Château de Vincennes;48.8443, 2.4396;Bérault;;
+2;Porte Dauphine;48.8714, 2.2742;;Victor Hugo;
+2;Victor Hugo;48.8736, 2.2852;Porte Dauphine;Charles de Gaulle–Étoile;
+2;Charles de Gaulle–Étoile;48.8744, 2.2958;Victor Hugo;Ternes;1, 6
+2;Ternes;48.8781, 2.2989;Charles de Gaulle–Étoile;Courcelles;
+2;Courcelles;48.8804, 2.3071;Ternes;Monceau;
+2;Monceau;48.8820, 2.3098;Courcelles;Villiers;
+2;Villiers;48.8838, 2.3166;Monceau;Rome;3
+2;Rome;48.8824, 2.3198;Villiers;Place de Clichy;
+2;Place de Clichy;48.8830, 2.3260;Rome;Blanche;13
+2;Blanche;48.8833, 2.3326;Place de Clichy;Pigalle;
+2;Pigalle;48.8822, 2.3370;Blanche;Anvers;12
+2;Anvers;48.8826, 2.3445;Pigalle;Barbès–Rochechouart;
+2;Barbès–Rochechouart;48.8835, 2.3494;Anvers;La Chapelle;4
+2;La Chapelle;48.8846, 2.3590;Barbès–Rochechouart;Stalingrad;
+2;Stalingrad;48.8843, 2.3684;La Chapelle;Jaurès;5, 7
+2;Jaurès;48.8825, 2.3709;Stalingrad;Colonel Fabien;5, 7bis
+2;Colonel Fabien;48.8788, 2.3706;Jaurès;Belleville;
+2;Belleville;48.8721, 2.3769;Colonel Fabien;Couronnes;11
+2;Couronnes;48.8695, 2.3805;Belleville;Ménilmontant;
+2;Ménilmontant;48.8665, 2.3833;Couronnes;Père Lachaise;
+2;Père Lachaise;48.8619, 2.3870;Ménilmontant;Philippe Auguste;3
+2;Philippe Auguste;48.8580, 2.3909;Père Lachaise;Alexandre Dumas;
+2;Alexandre Dumas;48.8562, 2.3950;Philippe Auguste;Avron;
+2;Avron;48.8519, 2.3979;Alexandre Dumas;Nation;
+2;Nation;48.8484, 2.3953;Avron;;1, 6, 9
+3;Pont de Levallois–Bécon;48.8963, 2.2789;;Anatole France;
+3;Anatole France;48.8924, 2.2833;Pont de Levallois–Bécon;Louise Michel;
+3;Louise Michel;48.8896, 2.2901;Anatole France;Porte de Champerret;
+3;Porte de Champerret;48.8857, 2.2966;Louise Michel;Pereire;
+3;Pereire;48.8853, 2.3030;Porte de Champerret;Wagram;RER C
+3;Wagram;48.8841, 2.3076;Pereire;Malesherbes;
+3;Malesherbes;48.8826, 2.3125;Wagram;Villiers;
+3;Villiers;48.8821, 2.3166;Malesherbes;Europe;2
+3;Europe;48.8766, 2.3241;Villiers;Saint-Lazare;
+3;Saint-Lazare;48.8754, 2.3266;Europe;Havre–Caumartin;12, 13, 14
+3;Havre–Caumartin;48.8738, 2.3286;Saint-Lazare;Opéra;9
+3;Opéra;48.8709, 2.3328;Havre–Caumartin;Quatre-Septembre;7, 8
+3;Quatre-Septembre;48.8695, 2.3364;Opéra;Bourse;
+3;Bourse;48.8683, 2.3410;Quatre-Septembre;Sentier;
+3;Sentier;48.8675, 2.3461;Bourse;Réaumur–Sébastopol;
+3;Réaumur–Sébastopol;48.8670, 2.3521;Sentier;Arts et Métiers;4
+3;Arts et Métiers;48.8663, 2.3556;Réaumur–Sébastopol;Temple;11
+3;Temple;48.8666, 2.3605;Arts et Métiers;République;
+3;République;48.8673, 2.3630;Temple;Parmentier;5, 8, 9, 11
+3;Parmentier;48.8655, 2.3740;République;Rue Saint-Maur;
+3;Rue Saint-Maur;48.8648, 2.3792;Parmentier;Père Lachaise;
+3;Père Lachaise;48.8619, 2.3870;Rue Saint-Maur;Gambetta;2
+3;Gambetta;48.8649, 2.3985;Père Lachaise;Porte de Bagnolet;3bis
+3;Porte de Bagnolet;48.8646, 2.4073;Gambetta;Gallieni;
+3;Gallieni;48.8649, 2.4156;Porte de Bagnolet;; 
+3bis;Porte des Lilas;48.8772, 2.4067;;Saint-Fargeau;11
+3bis;Saint-Fargeau;48.8721, 2.4045;Porte des Lilas;Pelleport;
+3bis;Pelleport;48.8687, 2.4018;Saint-Fargeau;Gambetta;
+3bis;Gambetta;48.8650, 2.3985;Pelleport;;3
+4;Bagneux - Lucie Aubrac;48.7994, 2.3139;;Barbara;
+4;Barbara;48.8092, 2.3177;Bagneux - Lucie Aubrac;Mairie de Montrouge;
+4;Mairie de Montrouge;48.8172, 2.3195;Barbara;Porte d'Orléans;
+4;Porte d'Orléans;48.8239, 2.3250;Mairie de Montrouge;Alésia;
+4;Alésia;48.8286, 2.3265;Porte d'Orléans;Mouton-Duvernet;
+4;Mouton-Duvernet;48.8333, 2.3256;Alésia;Denfert-Rochereau;
+4;Denfert-Rochereau;48.8339, 2.3324;Mouton-Duvernet;Raspail;6
+4;Raspail;48.8410, 2.3283;Denfert-Rochereau;Vavin;6
+4;Vavin;48.8422, 2.3290;Raspail;Montparnasse - Bienvenüe;
+4;Montparnasse - Bienvenüe;48.8422, 2.3226;Vavin;Saint-Placide;6, 12, 13
+4;Saint-Placide;48.8468, 2.3269;Montparnasse - Bienvenüe;Saint-Sulpice;
+4;Saint-Sulpice;48.8501, 2.3322;Saint-Placide;Saint-Germain-des-Prés;
+4;Saint-Germain-des-Prés;48.8531, 2.3337;Saint-Sulpice;Odéon;
+4;Odéon;48.8544, 2.3384;Saint-Germain-des-Prés;Saint-Michel;10
+4;Saint-Michel;48.8546, 2.3430;Odéon;Cité;10
+4;Cité;48.8551, 2.3467;Saint-Michel;Châtelet;
+4;Châtelet;48.8584, 2.3470;Cité;Les Halles;1, 7, 11, 14
+4;Les Halles;48.8620, 2.3461;Châtelet;Étienne Marcel;
+4;Étienne Marcel;48.8650, 2.3487;Les Halles;Réaumur - Sébastopol;
+4;Réaumur - Sébastopol;48.8670, 2.3521;Étienne Marcel;Strasbourg - Saint-Denis;3
+4;Strasbourg - Saint-Denis;48.8695, 2.3549;Réaumur - Sébastopol;Château d'Eau;8, 9
+4;Château d'Eau;48.8720, 2.3556;Strasbourg - Saint-Denis;Gare de l'Est;
+4;Gare de l'Est;48.8764, 2.3586;Château d'Eau;Gare du Nord;5, 7
+4;Gare du Nord;48.8809, 2.3553;Gare de l'Est;Barbès - Rochechouart;5
+4;Barbès - Rochechouart;48.8835, 2.3494;Gare du Nord;Château Rouge;2
+4;Château Rouge;48.8920, 2.3499;Barbès - Rochechouart;Marcadet - Poissonniers;
+4;Marcadet - Poissonniers;48.8925, 2.3499;Château Rouge;Simplon;12
+4;Simplon;48.8963, 2.3499;Marcadet - Poissonniers;Porte de Clignancourt;
+4;Porte de Clignancourt;48.8991, 2.3446;Simplon;; 
+5;Bobigny - Pablo Picasso;48.9081, 2.4511;;Bobigny - Pantin - Raymond Queneau;
+5;Bobigny - Pantin - Raymond Queneau;48.8995, 2.4282;Bobigny - Pablo Picasso;Église de Pantin;
+5;Église de Pantin;48.8896, 2.4131;Bobigny - Pantin - Raymond Queneau;Hoche;
+5;Hoche;48.8884, 2.3983;Église de Pantin;Porte de Pantin;
+5;Porte de Pantin;48.8886, 2.3948;Hoche;Ourcq;
+5;Ourcq;48.8881, 2.3837;Porte de Pantin;Laumière;
+5;Laumière;48.8848, 2.3779;Ourcq;Jaurès;
+5;Jaurès;48.8825, 2.3709;Laumière;Stalingrad;2, 7bis
+5;Stalingrad;48.8843, 2.3684;Jaurès;Gare du Nord;2, 7
+5;Gare du Nord;48.8809, 2.3553;Stalingrad;Gare de l'Est;4
+5;Gare de l'Est;48.8764, 2.3586;Gare du Nord;Jacques Bonsergent;4, 7
+5;Jacques Bonsergent;48.8720, 2.3620;Gare de l'Est;République;
+5;République;48.8673, 2.3630;Jacques Bonsergent;Oberkampf;3, 8, 9, 11
+5;Oberkampf;48.8649, 2.3700;République;Richard-Lenoir;9
+5;Richard-Lenoir;48.8619, 2.3719;Oberkampf;Bréguet - Sabin;
+5;Bréguet - Sabin;48.8574, 2.3719;Richard-Lenoir;Bastille;
+5;Bastille;48.8531, 2.3691;Bréguet - Sabin;Quai de la Rapée;1, 8
+5;Quai de la Rapée;48.8459, 2.3661;Bastille;Gare d'Austerlitz;
+5;Gare d'Austerlitz;48.8426, 2.3649;Quai de la Rapée;Saint-Marcel;10
+5;Saint-Marcel;48.8395, 2.3575;Gare d'Austerlitz;Campo-Formio;
+5;Campo-Formio;48.8350, 2.3581;Saint-Marcel;Place d'Italie;
+5;Place d'Italie;48.8312, 2.3554;Campo-Formio;;6, 7
+6;Charles de Gaulle–Étoile;48.8738, 2.2950;;Kléber;1, 2
+6;Kléber;48.8704, 2.2930;Charles de Gaulle–Étoile;Boissière;
+6;Boissière;48.8662, 2.2908;Kléber;Trocadéro;
+6;Trocadéro;48.8631, 2.2889;Boissière;Passy;9
+6;Passy;48.8575, 2.2874;Trocadéro;Bir-Hakeim;
+6;Bir-Hakeim;48.8553, 2.2893;Passy;Dupleix;
+6;Dupleix;48.8496, 2.2931;Bir-Hakeim;La Motte-Picquet–Grenelle;
+6;La Motte-Picquet–Grenelle;48.8481, 2.2980;Dupleix;Cambronne;8, 10
+6;Cambronne;48.8463, 2.3032;La Motte-Picquet–Grenelle;Sèvres–Lecourbe;
+6;Sèvres–Lecourbe;48.8446, 2.3124;Cambronne;Pasteur;
+6;Pasteur;48.8422, 2.3155;Sèvres–Lecourbe;Montparnasse–Bienvenüe;12
+6;Montparnasse–Bienvenüe;48.8422, 2.3226;Pasteur;Edgar Quinet;4, 12, 13
+6;Edgar Quinet;48.8413, 2.3265;Montparnasse–Bienvenüe;Raspail;
+6;Raspail;48.8410, 2.3283;Edgar Quinet;Denfert-Rochereau;4
+6;Denfert-Rochereau;48.8339, 2.3324;Raspail;Saint-Jacques;4
+6;Saint-Jacques;48.8325, 2.3363;Denfert-Rochereau;Glacière;
+6;Glacière;48.8312, 2.3416;Saint-Jacques;Corvisart;
+6;Corvisart;48.8291, 2.3481;Glacière;Place d'Italie;
+6;Place d'Italie;48.8312, 2.3554;Corvisart;Nationale;5, 7
+6;Nationale;48.8340, 2.3627;Place d'Italie;Chevaleret;
+6;Chevaleret;48.8330, 2.3688;Nationale;Quai de la Gare;
+6;Quai de la Gare;48.8370, 2.3731;Chevaleret;Bercy;
+6;Bercy;48.8401, 2.3807;Quai de la Gare;Dugommier;14
+6;Dugommier;48.8390, 2.3880;Bercy;Daumesnil;
+6;Daumesnil;48.8396, 2.3961;Dugommier;Bel-Air;8
+6;Bel-Air;48.8414, 2.4019;Daumesnil;Picpus;
+6;Picpus;48.8451, 2.4005;Bel-Air;Nation;
+6;Nation;48.8484, 2.3953;Picpus;;1, 2, 9
+7;La Courneuve - 8 Mai 1945;48.9284, 2.3964;;Fort d'Aubervilliers;
+7;Fort d'Aubervilliers;48.9137, 2.3946;La Courneuve - 8 Mai 1945;Aubervilliers - Pantin - Quatre Chemins;
+7;Aubervilliers - Pantin - Quatre Chemins;48.9009, 2.3836;Fort d'Aubervilliers;Porte de la Villette;
+7;Porte de la Villette;48.8975, 2.3831;Aubervilliers - Pantin - Quatre Chemins;Corentin Cariou;
+7;Corentin Cariou;48.8946, 2.3762;Porte de la Villette;Crimée;
+7;Crimée;48.8896, 2.3736;Corentin Cariou;Riquet;
+7;Riquet;48.8841, 2.3689;Crimée;Stalingrad;
+7;Stalingrad;48.8843, 2.3684;Riquet;Louis Blanc;2, 5
+7;Louis Blanc;48.8811, 2.3648;Stalingrad;Château-Landon;7bis
+7;Château-Landon;48.8786, 2.3622;Louis Blanc;Gare de l'Est;
+7;Gare de l'Est;48.8764, 2.3586;Château-Landon;Poissonnière;4, 5
+7;Poissonnière;48.8785, 2.3499;Gare de l'Est;Cadet;
+7;Cadet;48.8763, 2.3441;Poissonnière;Le Peletier;
+7;Le Peletier;48.8750, 2.3389;Cadet;Chaussée d'Antin - La Fayette;
+7;Chaussée d'Antin - La Fayette;48.8726, 2.3336;Le Peletier;Opéra;9
+7;Opéra;48.8709, 2.3328;Chaussée d'Antin - La Fayette;Pyramides;3, 8
+7;Pyramides;48.8669, 2.3337;Opéra;Palais Royal - Musée du Louvre;14
+7;Palais Royal - Musée du Louvre;48.8625, 2.3361;Pyramides;Pont Neuf;1
+7;Pont Neuf;48.8586, 2.3412;Palais Royal - Musée du Louvre;Châtelet;
+7;Châtelet;48.8584, 2.3470;Pont Neuf;Pont Marie;1, 4, 11, 14
+7;Pont Marie;48.8526, 2.3563;Châtelet;Sully - Morland;
+7;Sully - Morland;48.8514, 2.3619;Pont Marie;Jussieu;
+7;Jussieu;48.8461, 2.3557;Sully - Morland;Place Monge;10
+7;Place Monge;48.8434, 2.3516;Jussieu;Censier - Daubenton;
+7;Censier - Daubenton;48.8414, 2.3510;Place Monge;Les Gobelins;
+7;Les Gobelins;48.8376, 2.3511;Censier - Daubenton;Place d'Italie;
+7;Place d'Italie;48.8312, 2.3554;Les Gobelins;Tolbiac;5, 6
+7;Tolbiac;48.8271, 2.3576;Place d'Italie;Maison Blanche;
+7;Maison Blanche;48.8216, 2.3578;Tolbiac;Le Kremlin-Bicêtre;
+7;Le Kremlin-Bicêtre;48.8109, 2.3553;Maison Blanche;Villejuif - Léo Lagrange;
+7;Villejuif - Léo Lagrange;48.8009, 2.3591;Le Kremlin-Bicêtre;Villejuif - Paul Vaillant-Couturier;
+7;Villejuif - Paul Vaillant-Couturier;48.7931, 2.3642;Villejuif - Léo Lagrange;Villejuif - Louis Aragon;
+7;Villejuif - Louis Aragon;48.7904, 2.3686;Villejuif - Paul Vaillant-Couturier;;
+7;Maison Blanche;48.8216, 2.3578;Tolbiac;Porte d'Italie;
+7;Porte d'Italie;48.8196, 2.3640;Maison Blanche;Porte de Choisy;
+7;Porte de Choisy;48.8203, 2.3653;Porte d'Italie;Porte d'Ivry;
+7;Porte d'Ivry;48.8230, 2.3706;Porte de Choisy;Pierre et Marie Curie;
+7;Pierre et Marie Curie;48.8217, 2.3791;Porte d'Ivry;Mairie d'Ivry;
+7;Mairie d'Ivry;48.8139, 2.3866;Pierre et Marie Curie;;
+7bis;Louis Blanc;48.8811, 2.3648;;Jaurès;7
+7bis;Jaurès;48.8825, 2.3709;Louis Blanc;Bolivar;2, 5
+7bis;Bolivar;48.8806, 2.3765;Jaurès;Buttes Chaumont;
+7bis;Buttes Chaumont;48.8785, 2.3818;Bolivar;Botzaris;
+7bis;Botzaris;48.8796, 2.3880;Buttes Chaumont;Place des Fêtes;
+7bis;Place des Fêtes;48.8763, 2.3936;Botzaris;Pré-Saint-Gervais;11
+7bis;Pré-Saint-Gervais;48.8803, 2.3989;Place des Fêtes;Danube;
+7bis;Danube;48.8800, 2.3895;Pré-Saint-Gervais;;
+8;Balard;48.8383, 2.2775;;Lourmel;
+8;Lourmel;48.8386, 2.2818;Balard;Boucicaut;
+8;Boucicaut;48.8411, 2.2878;Lourmel;Félix Faure;
+8;Félix Faure;48.8428, 2.2918;Boucicaut;Commerce;
+8;Commerce;48.8460, 2.2949;Félix Faure;La Motte-Picquet–Grenelle;
+8;La Motte-Picquet–Grenelle;48.8491, 2.2981;Commerce;École Militaire;6, 10
+8;École Militaire;48.8551, 2.3062;La Motte-Picquet–Grenelle;La Tour-Maubourg;
+8;La Tour-Maubourg;48.8583, 2.3123;École Militaire;Invalides;
+8;Invalides;48.8608, 2.3169;La Tour-Maubourg;Concorde;13
+8;Concorde;48.8663, 2.3214;Invalides;Madeleine;1, 12
+8;Madeleine;48.8701, 2.3252;Concorde;Opéra;12, 14
+8;Opéra;48.8709, 2.3328;Madeleine;Richelieu–Drouot;3, 7
+8;Richelieu–Drouot;48.8723, 2.3384;Opéra;Grands Boulevards;9
+8;Grands Boulevards;48.8728, 2.3430;Richelieu–Drouot;Bonne-Nouvelle;9
+8;Bonne-Nouvelle;48.8715, 2.3480;Grands Boulevards;Strasbourg–Saint-Denis;9
+8;Strasbourg–Saint-Denis;48.8695, 2.3549;Bonne-Nouvelle;République;4, 9
+8;République;48.8673, 2.3630;Strasbourg–Saint-Denis;Filles du Calvaire;3, 5, 9, 11
+8;Filles du Calvaire;48.8639, 2.3664;République;Saint-Sébastien–Froissart;
+8;Saint-Sébastien–Froissart;48.8611, 2.3688;Filles du Calvaire;Chemin Vert;
+8;Chemin Vert;48.8576, 2.3707;Saint-Sébastien–Froissart;Bastille;
+8;Bastille;48.8531, 2.3691;Chemin Vert;Ledru-Rollin;1, 5
+8;Ledru-Rollin;48.8510, 2.3716;Bastille;Faidherbe–Chaligny;
+8;Faidherbe–Chaligny;48.8491, 2.3801;Ledru-Rollin;Reuilly–Diderot;
+8;Reuilly–Diderot;48.8482, 2.3863;Faidherbe–Chaligny;Montgallet;1
+8;Montgallet;48.8476, 2.3916;Reuilly–Diderot;Daumesnil;
+8;Daumesnil;48.8396, 2.3961;Montgallet;Michel Bizot;6
+8;Michel Bizot;48.8380, 2.3989;Daumesnil;Porte Dorée;
+8;Porte Dorée;48.8351, 2.4060;Michel Bizot;Porte de Charenton;
+8;Porte de Charenton;48.8326, 2.4131;Porte Dorée;Liberté;
+8;Liberté;48.8219, 2.4096;Porte de Charenton;Charenton–Écoles;
+8;Charenton–Écoles;48.8159, 2.4054;Liberté;École Vétérinaire de Maisons-Alfort;
+8;École Vétérinaire de Maisons-Alfort;48.8120, 2.4141;Charenton–Écoles;Maisons-Alfort–Stade;
+8;Maisons-Alfort–Stade;48.8067, 2.4254;École Vétérinaire de Maisons-Alfort;Maisons-Alfort–Les Juilliottes;
+8;Maisons-Alfort–Les Juilliottes;48.8012, 2.4346;Maisons-Alfort–Stade;Créteil–L'Échat;
+8;Créteil–L'Échat;48.7922, 2.4459;Maisons-Alfort–Les Juilliottes;Créteil–Université;
+8;Créteil–Université;48.7872, 2.4535;Créteil–L'Échat;Créteil–Préfecture;
+8;Créteil–Préfecture;48.7798, 2.4606;Créteil–Université;Créteil–Pointe du Lac;
+8;Créteil–Pointe du Lac;48.7750, 2.4663;Créteil–Préfecture;;
+9;Pont de Sèvres;48.8294, 2.2303;;Billancourt;
+9;Billancourt;48.8336, 2.2396;Pont de Sèvres;Marcel Sembat;
+9;Marcel Sembat;48.8336, 2.2436;Billancourt;Porte de Saint-Cloud;
+9;Porte de Saint-Cloud;48.8370, 2.2563;Marcel Sembat;Exelmans;
+9;Exelmans;48.8411, 2.2636;Porte de Saint-Cloud;Michel-Ange - Molitor;
+9;Michel-Ange - Molitor;48.8450, 2.2612;Exelmans;Michel-Ange - Auteuil;10
+9;Michel-Ange - Auteuil;48.8470, 2.2635;Michel-Ange - Molitor;Jasmin;10
+9;Jasmin;48.8520, 2.2678;Michel-Ange - Auteuil;Ranelagh;
+9;Ranelagh;48.8563, 2.2699;Jasmin;La Muette;
+9;La Muette;48.8589, 2.2739;Ranelagh;Rue de la Pompe;
+9;Rue de la Pompe;48.8640, 2.2791;La Muette;Trocadéro;
+9;Trocadéro;48.8631, 2.2889;Rue de la Pompe;Iéna;6
+9;Iéna;48.8655, 2.2946;Trocadéro;Alma - Marceau;
+9;Alma - Marceau;48.8642, 2.3001;Iéna;Franklin D. Roosevelt;
+9;Franklin D. Roosevelt;48.8675, 2.3089;Alma - Marceau;Saint-Philippe du Roule;1
+9;Saint-Philippe du Roule;48.8703, 2.3123;Franklin D. Roosevelt;Miromesnil;
+9;Miromesnil;48.8723, 2.3165;Saint-Philippe du Roule;Saint-Augustin;13
+9;Saint-Augustin;48.8742, 2.3225;Miromesnil;Havre - Caumartin;
+9;Havre - Caumartin;48.8736, 2.3283;Saint-Augustin;Chaussée d'Antin - La Fayette;3
+9;Chaussée d'Antin - La Fayette;48.8726, 2.3336;Havre - Caumartin;Richelieu - Drouot;7
+9;Richelieu - Drouot;48.8723, 2.3384;Chaussée d'Antin - La Fayette;Grands Boulevards;8
+9;Grands Boulevards;48.8728, 2.3430;Richelieu - Drouot;Bonne-Nouvelle;8
+9;Bonne-Nouvelle;48.8715, 2.3480;Grands Boulevards;Strasbourg - Saint-Denis;8
+9;Strasbourg - Saint-Denis;48.8695, 2.3549;Bonne-Nouvelle;République;4, 8
+9;République;48.8673, 2.3630;Strasbourg - Saint-Denis;Oberkampf;3, 5, 8, 11
+9;Oberkampf;48.8645, 2.3689;République;Saint-Ambroise;5
+9;Saint-Ambroise;48.8616, 2.3752;Oberkampf;Voltaire;
+9;Voltaire;48.8575, 2.3800;Saint-Ambroise;Charonne;
+9;Charonne;48.8538, 2.3835;Voltaire;Rue des Boulets;
+9;Rue des Boulets;48.8515, 2.3892;Charonne;Nation;
+9;Nation;48.8484, 2.3953;Rue des Boulets;Buzenval;1, 2, 6
+9;Buzenval;48.8505, 2.4016;Nation;Maraîchers;
+9;Maraîchers;48.8515, 2.4075;Buzenval;Porte de Montreuil;
+9;Porte de Montreuil;48.8536, 2.4150;Maraîchers;Robespierre;
+9;Robespierre;48.8548, 2.4237;Porte de Montreuil;Croix de Chavaux;
+9;Croix de Chavaux;48.8549, 2.4343;Robespierre;Mairie de Montreuil;
+9;Mairie de Montreuil;48.8594, 2.4435;Croix de Chavaux;;
+10;Boulogne - Pont de Saint-Cloud;48.840684, 2.228331;;Boulogne - Jean Jaurès;
+10;Boulogne - Jean Jaurès;48.839400, 2.239900;Boulogne - Pont de Saint-Cloud;Porte d'Auteuil;
+10;Porte d'Auteuil;48.848025, 2.258750;Boulogne - Jean Jaurès;Michel-Ange - Molitor;
+10;Michel-Ange - Molitor;48.845000, 2.261200;Porte d'Auteuil;Chardon-Lagache;9
+10;Chardon-Lagache;48.844000, 2.266500;Michel-Ange - Molitor;Église d'Auteuil;
+10;Église d'Auteuil;48.846100, 2.269600;Chardon-Lagache;Mirabeau;
+10;Mirabeau;48.846739, 2.271708;Église d'Auteuil;Javel - André Citroën;
+10;Javel - André Citroën;48.842000, 2.277500;Mirabeau;Charles Michels;
+10;Charles Michels;48.846591, 2.286942;Javel - André Citroën;Avenue Émile-Zola;
+10;Avenue Émile-Zola;48.847400, 2.294000;Charles Michels;La Motte-Picquet - Grenelle;
+10;La Motte-Picquet - Grenelle;48.849100, 2.298100;Avenue Émile-Zola;Ségur;6, 8
+10;Ségur;48.847434, 2.306853;La Motte-Picquet - Grenelle;Duroc;
+10;Duroc;48.846300, 2.316200;Ségur;Vaneau;13
+10;Vaneau;48.848811, 2.321205;Duroc;Sèvres - Babylone;
+10;Sèvres - Babylone;48.851500, 2.324900;Vaneau;Mabillon;12
+10;Mabillon;48.852500, 2.335200;Sèvres - Babylone;Odéon;
+10;Odéon;48.853400, 2.338600;Mabillon;Cluny - La Sorbonne;4
+10;Cluny - La Sorbonne;48.852400, 2.344000;Odéon;Maubert - Mutualité;
+10;Maubert - Mutualité;48.849300, 2.347000;Cluny - La Sorbonne;Cardinal Lemoine;
+10;Cardinal Lemoine;48.846400, 2.352000;Maubert - Mutualité;Jussieu;
+10;Jussieu;48.846100, 2.355700;Cardinal Lemoine;Gare d'Austerlitz;7
+10;Gare d'Austerlitz;48.842222, 2.365833;Jussieu;;5
+11;Châtelet;48.8575, 2.3470;;Hôtel de Ville;1, 4, 14
+11;Hôtel de Ville;48.8575, 2.3515;Châtelet;Rambuteau;1
+11;Rambuteau;48.8611, 2.3545;Hôtel de Ville;Arts et Métiers;
+11;Arts et Métiers;48.8655, 2.3557;Rambuteau;République;3
+11;République;48.8675, 2.3630;Arts et Métiers;Goncourt;3, 5, 8, 9
+11;Goncourt;48.8710, 2.3705;République;Belleville;
+11;Belleville;48.8735, 2.3795;Goncourt;Pyrénées;2
+11;Pyrénées;48.8755, 2.3835;Belleville;Jourdain;
+11;Jourdain;48.8775, 2.3890;Pyrénées;Place des Fêtes;
+11;Place des Fêtes;48.8770, 2.3925;Jourdain;Télégraphe;7bis
+11;Télégraphe;48.8755, 2.3984;Place des Fêtes;Porte des Lilas;
+11;Porte des Lilas;48.8750, 2.4070;Télégraphe;Mairie des Lilas;3bis
+11;Mairie des Lilas;48.8800, 2.4200;Porte des Lilas;Serge Gainsbourg;
+11;Serge Gainsbourg;48.8830, 2.4320;Mairie des Lilas;Romainville - Carnot;
+11;Romainville - Carnot;48.8850, 2.4410;Serge Gainsbourg;Montreuil - Hôpital;
+11;Montreuil - Hôpital;48.8865, 2.4485;Romainville - Carnot;La Dhuys;
+11;La Dhuys;48.8880, 2.4555;Montreuil - Hôpital;Coteaux Beauclair;
+11;Coteaux Beauclair;48.8895, 2.4625;La Dhuys;Rosny - Bois-Perrier;
+11;Rosny - Bois-Perrier;48.8828, 2.4805;Coteaux Beauclair;;
+12;Mairie d'Aubervilliers;48.9145, 2.3833;;Aimé Césaire;
+12;Aimé Césaire;48.9086, 2.3708;Mairie d'Aubervilliers;Front Populaire;
+12;Front Populaire;48.9069, 2.3658;Aimé Césaire;Porte de la Chapelle;
+12;Porte de la Chapelle;48.8963, 2.3591;Front Populaire;Marx Dormoy;
+12;Marx Dormoy;48.8905, 2.3600;Porte de la Chapelle;Marcadet - Poissonniers;
+12;Marcadet - Poissonniers;48.8920, 2.3497;Marx Dormoy;Jules Joffrin;4
+12;Jules Joffrin;48.8925, 2.3445;Marcadet - Poissonniers;Lamarck - Caulaincourt;
+12;Lamarck - Caulaincourt;48.8898, 2.3387;Jules Joffrin;Abbesses;
+12;Abbesses;48.8841, 2.3380;Lamarck - Caulaincourt;Pigalle;
+12;Pigalle;48.8822, 2.3371;Abbesses;Saint-Georges;2
+12;Saint-Georges;48.8798, 2.3370;Pigalle;Notre-Dame-de-Lorette;
+12;Notre-Dame-de-Lorette;48.8769, 2.3370;Saint-Georges;Trinité - d'Estienne d'Orves;
+12;Trinité - d'Estienne d'Orves;48.8755, 2.3329;Notre-Dame-de-Lorette;Saint-Lazare;
+12;Saint-Lazare;48.8756, 2.3258;Trinité - d'Estienne d'Orves;Madeleine;3, 13, 14
+12;Madeleine;48.8697, 2.3250;Saint-Lazare;Concorde;8
+12;Concorde;48.8663, 2.3214;Madeleine;Assemblée Nationale;1, 8
+12;Assemblée Nationale;48.8626, 2.3185;Concorde;Solférino;
+12;Solférino;48.8582, 2.3232;Assemblée Nationale;Rue du Bac;
+12;Rue du Bac;48.8555, 2.3269;Solférino;Sèvres - Babylone;
+12;Sèvres - Babylone;48.8525, 2.3269;Rue du Bac;Rennes;10
+12;Rennes;48.8506, 2.3256;Sèvres - Babylone;Notre-Dame-des-Champs;
+12;Notre-Dame-des-Champs;48.8469, 2.3261;Rennes;Montparnasse - Bienvenüe;
+12;Montparnasse - Bienvenüe;48.8436, 2.3234;Notre-Dame-des-Champs;Falguière;4, 6, 13
+12;Falguière;48.8445, 2.3180;Montparnasse - Bienvenüe;Pasteur;
+12;Pasteur;48.8422, 2.3124;Falguière;Volontaires;6
+12;Volontaires;48.8411, 2.3100;Pasteur;Vaugirard;
+12;Vaugirard;48.8395, 2.3059;Volontaires;Convention;
+12;Convention;48.8376, 2.3022;Vaugirard;Porte de Versailles;
+12;Porte de Versailles;48.8327, 2.2871;Convention;Corentin Celton;
+12;Corentin Celton;48.8279, 2.2786;Porte de Versailles;Mairie d'Issy;
+12;Mairie d'Issy;48.8240, 2.2735;Corentin Celton;;
+13;Saint-Denis - Université;48.945799, 2.363674;;Basilique de Saint-Denis;
+13;Basilique de Saint-Denis;48.9360, 2.3572;Saint-Denis - Université;Saint-Denis - Porte de Paris;
+13;Saint-Denis - Porte de Paris;48.9301, 2.3515;Basilique de Saint-Denis;Carrefour Pleyel;
+13;Carrefour Pleyel;48.9226, 2.3333;Saint-Denis - Porte de Paris;Mairie de Saint-Ouen;
+13;Mairie de Saint-Ouen;48.9117, 2.3333;Carrefour Pleyel;Garibaldi;14
+13;Garibaldi;48.9139, 2.3295;Mairie de Saint-Ouen;Porte de Saint-Ouen;
+13;Porte de Saint-Ouen;48.8968, 2.3287;Garibaldi;Guy Môquet;
+13;Guy Môquet;48.8925, 2.3267;Porte de Saint-Ouen;La Fourche;
+13;La Fourche;48.8886, 2.3261;Guy Môquet;Place de Clichy;
+13;Place de Clichy;48.8837, 2.3265;La Fourche;Liège;2
+13;Liège;48.8789, 2.3266;Place de Clichy;Saint-Lazare;
+13;Saint-Lazare;48.8759, 2.3250;Liège;Miromesnil;3, 12, 14
+13;Miromesnil;48.8725, 2.3164;Saint-Lazare;Champs-Élysées - Clemenceau;9
+13;Champs-Élysées - Clemenceau;48.8662, 2.3145;Miromesnil;Invalides;1
+13;Invalides;48.8625, 2.3169;Champs-Élysées - Clemenceau;Varenne;8
+13;Varenne;48.8565, 2.3153;Invalides;Saint-François-Xavier;
+13;Saint-François-Xavier;48.8520, 2.3145;Varenne;Duroc;
+13;Duroc;48.8468, 2.3165;Saint-François-Xavier;Montparnasse - Bienvenüe;10
+13;Montparnasse - Bienvenüe;48.8436, 2.3234;Duroc;Gaîté;4, 6, 12
+13;Gaîté;48.8387, 2.3226;Montparnasse - Bienvenüe;Pernety;
+13;Pernety;48.8335, 2.3195;Gaîté;Plaisance;
+13;Plaisance;48.8323, 2.3150;Pernety;Porte de Vanves;
+13;Porte de Vanves;48.8271, 2.3059;Plaisance;Malakoff - Plateau de Vanves;
+13;Malakoff - Plateau de Vanves;48.8225, 2.2980;Porte de Vanves;Malakoff - Rue Étienne Dolet;
+13;Malakoff - Rue Étienne Dolet;48.8190, 2.2920;Malakoff - Plateau de Vanves;Châtillon - Montrouge;
+13;Châtillon - Montrouge;48.8069, 2.2997;Malakoff - Rue Étienne Dolet;;
+13;Les Agnettes;48.9112, 2.3045;Gabriel Péri;Asnières - Gennevilliers - Les Courtilles;
+13;Asnières - Gennevilliers - Les Courtilles;48.9187, 2.2983;Les Agnettes;;
+13;Gabriel Péri;48.9069, 2.3045;Mairie de Clichy;Les Agnettes;
+13;Mairie de Clichy;48.9038, 2.3051;Porte de Clichy;Gabriel Péri;
+13;Porte de Clichy;48.8920, 2.3164;Brochant;Mairie de Clichy;14
+13;Brochant;48.8909, 2.3197;La Fourche;Porte de Clichy;
+14;Saint-Denis Pleyel;48.9333, 2.3333;;Mairie de Saint-Ouen;
+14;Mairie de Saint-Ouen;48.9117, 2.3333;Saint-Denis Pleyel;Clichy - Saint-Ouen;13
+14;Clichy - Saint-Ouen;48.9045, 2.3165;Mairie de Saint-Ouen;Porte de Clichy;
+14;Porte de Clichy;48.8920, 2.3164;Clichy - Saint-Ouen;Pont Cardinet;13
+14;Pont Cardinet;48.8895, 2.3153;Porte de Clichy;Saint-Lazare;
+14;Saint-Lazare;48.8759, 2.3250;Pont Cardinet;Madeleine;3, 12, 13
+14;Madeleine;48.8697, 2.3250;Saint-Lazare;Pyramides;8, 12
+14;Pyramides;48.8655, 2.3322;Madeleine;Châtelet;7
+14;Châtelet;48.8575, 2.3470;Pyramides;Gare de Lyon;1, 4, 7, 11
+14;Gare de Lyon;48.8446, 2.3723;Châtelet;Bercy;1
+14;Bercy;48.8408, 2.3819;Gare de Lyon;Cour Saint-Émilion;6
+14;Cour Saint-Émilion;48.8333, 2.3866;Bercy;Bibliothèque François-Mitterrand;
+14;Bibliothèque François-Mitterrand;48.8299, 2.3768;Cour Saint-Émilion;Olympiades;
+14;Olympiades;48.8270, 2.3664;Bibliothèque François-Mitterrand;Maison Blanche;
+14;Maison Blanche;48.8222, 2.3585;Olympiades;Le Kremlin-Bicêtre;7
+14;Le Kremlin-Bicêtre;48.8105, 2.3553;Maison Blanche;Villejuif - Gustave Roussy;
+14;Villejuif - Gustave Roussy;48.7936, 2.3558;Le Kremlin-Bicêtre;L'Haÿ-les-Roses;
+14;L'Haÿ-les-Roses;48.7753, 2.3541;Villejuif - Gustave Roussy;Chevilly-Larue;
+14;Chevilly-Larue;48.7636, 2.3533;L'Haÿ-les-Roses;MIN Porte de Thiais;
+14;MIN Porte de Thiais;48.7519, 2.3531;Chevilly-Larue;Pont de Rungis;
+14;Pont de Rungis;48.7431, 2.3617;MIN Porte de Thiais;Aéroport d'Orly;
+14;Aéroport d'Orly;48.7318, 2.3656;Pont de Rungis;;
